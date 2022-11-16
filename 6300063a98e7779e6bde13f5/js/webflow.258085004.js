@@ -8283,7 +8283,7 @@
                     marginRight: '8px',
                     width: '16px'
                 });
-                var $logoText = $('<img>').attr('src', 'img/webflow-badge-text.6faa6a38cd.svg').attr('alt', 'Made in Webflow');
+                var $logoText = $('').attr('').attr('alt', '');
                 $brand.append($logoArt, $logoText);
                 return $brand[0];
             }
